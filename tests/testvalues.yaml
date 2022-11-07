@@ -1,0 +1,4 @@
+manifests:
+  enabled: true
+  nonBlocking: false
+  staging: true
