@@ -1,11 +1,14 @@
-#- op: add
-#  path: /spec/template/spec/containers/0/args/-
-#  value: 
-#    - --dns01-recursive-nameservers-only=true
-#    - --dns01-recursive-nameservers=9.9.9.9:53,8.8.8.8:53,1.1.1.1:53
+- op: add
+  path: /spec/template/spec/containers/0/args/-
+  value: 
+    --dns01-recursive-nameservers-only=true
+- op: add
+  path: /spec/template/spec/containers/0/args/-
+  value: 
+    --dns01-recursive-nameservers=9.9.9.9:53,8.8.8.8:53,1.1.1.1:53
 - op: add
   path: /spec/template/spec/containers/0/ports/-
   value:
-    - containerPort: 9402
-      name: http
-      protocol: TCP
+    containerPort: 9402
+    name: http
+    protocol: TCP
