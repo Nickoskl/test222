@@ -9,3 +9,8 @@ patches:
   target:
     kind: Deployment
     name: cert-manager
+patchesJson6902:
+- path: jsonpatch.yaml
+  target:
+    kind: Deployment
+    name: cert-manager
