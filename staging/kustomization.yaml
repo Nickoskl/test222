@@ -8,5 +8,3 @@ resources:
   - https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.18.1/cnpg-1.18.1.yaml
   - https://raw.githubusercontent.com/metallb/metallb/v0.13.7/config/manifests/metallb-native.yaml
   - ./prometheus/
-  - https://raw.githubusercontent.com/spotahome/redis-operator/v1.2.4/manifests/databases.spotahome.com_redisfailovers.yaml
-  - https://raw.githubusercontent.com/spotahome/redis-operator/v1.2.4/example/operator/all-redis-operator-resources.yaml
