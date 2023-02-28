@@ -1,2 +1,2 @@
 # manifests
-Background Manifests for TrueNAS SCALE
+Background Manifests for TrueCharts
